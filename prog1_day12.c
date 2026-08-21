@@ -40,11 +40,11 @@ int main()
 	printf("Fine Rs.%d", fine);
 	}
 	else if (dayslate<=10) {
-	fine=4*dayslate;
+	fine=(5*2)+((dayslate-5)*4)
 	printf("Fine Rs.%d", fine);
 	}
 	else if (dayslate<=30) {
-	fine=6*dayslate;
+	fine=(2*10)+((dayslate-10)*6);
 	printf("Fine Rs.%d", fine);
 	}
 	else if (dayslate>30)
