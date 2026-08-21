@@ -44,7 +44,7 @@ int main()
 	printf("Fine Rs.%d", fine);
 	}
 	else if (dayslate<=30) {
-	fine=(2*10)+((dayslate-10)*6);
+	fine=(2*5)+(5*4)+((dayslate-10)*6);
 	printf("Fine Rs.%d", fine);
 	}
 	else if (dayslate>30)
